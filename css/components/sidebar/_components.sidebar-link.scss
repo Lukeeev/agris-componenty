@@ -1,0 +1,10 @@
+.c-sidebar__link{
+    color: black;
+    text-decoration: none;
+    :hover{
+        text-decoration: underline;
+    }
+}
+.c-sidebar__link--more{
+    color: rgb(139, 136, 136);
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Agris</title>
+</head>
+
+<body>
+    <header class="c-head">
+        <div class="c-languages">
+            <ul>
+                <li><a class="c-current__lang" href="http://www.agris.cz/pokrocile-vyhledavani" id="czech"><img
+                            src="images/flag_czech.gif" alt=""> Česky</a></li>
+                <li><a class="c-current__lang" href="http://www.agris.cz/pokrocile-vyhledavani" id="czech"><img
+                            src="images/flag_english.gif" alt=""> English</a></li>
+                <li><a href="http://www.agris.cz/">Textová verze</a></li>
+                <li><a href="http://www.agris.cz/">Zobrazit mobilní verzi</a></li>
+            </ul>
+        </div>
+        <nav class="c-nav">
+            <img id="c-logo" src="images/agris.gif" alt="Agris.cz agrární www portál" title="Agris.cz">
+            <div class="c-search">
+                <form action="http://www.agris.cz/vysledek-hledani/1?period=0&comodity=0&area=0&source=0&order=0"
+                    method="get">
+                    <input id="c-search__input" type="text" name="anyWords">
+                    <input id="c-search__submit" type="submit" value="Hledat">
+                </form>
+            </div>
+            <ul class="c-list">
+                <li class="c-list__item"><a href="agris.cz/zemedelstvi">Zemědělství</a></li>
+                <li class="c-list__item"><a href="agris.cz/potravinarstvi">Potravinářství</a></li>
+                <li class="c-list__item"><a href="agris.cz/lesnictvi">Lesnictví</a></li>
+                <li class="c-list__item"><a href="agris.cz/ekologie">Ekologie</a></li>
+                <li class="c-list__item"><a href="agris.cz/venkov">Venkov</a></li>
+                <li class="c-list__item"><a href="agris.cz/podnikani">Podnikání</a></li>
+            </ul>
+            <div class="c-buttons__container">
+                <ul class="c-buttons__list">
+                    <li><a class="c-price" href="/Prices"><i class="fas fa-dollar-sign">&nbsp; </i><i class="fas fa-euro-sign">&nbsp; </i>Ceny</a></li>
+                    <li><a class="c-map" href="/mapa-serveru"><i class="fas fa-server">&nbsp; </i>Mapa serveru</a></li>
+                    <li><a class="c-content" href="/pridat-obsah"><i class="fas fa-plus-circle">&nbsp; </i>Přidat obsah</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <aside class="c-sidebar__one">
+        <div class="c-sidebar__title">
+            <h2>Nejčtenější</h2>
+        </div>
+        <div class="c-sidebar__article">
+            <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213491">
+                <p><i class='fas fa-angle-right'></i> Ministerstvo zdravotnictví: Nákup na farmářském trhu je
+                    (nepřípustnou) společenskou událostí</p>
+            </a>
+            <hr>
+            <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213498">
+                <p><i class='fas fa-angle-right'></i> Na opravu drobných kulturních prvků venkova dá v příštím roce
+                    Ministerstvo zemědělství 30 milionů korun</p>
+            </a>
+            <hr>
+            <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213490">
+                <p><i class='fas fa-angle-right'></i> Prodejce zbraní: Argument o lovu na severu je absurdní</p>
+            </a>
+            <hr>
+            <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213505">
+                <p><i class='fas fa-angle-right'></i> Chovatelé prasat v ČR musí mít do konce roku povinně oploceny
+                    chovy</p>
+            </a>
+            <hr>
+            <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213512">
+                <p><i class='fas fa-angle-right'></i> Dosavadní průběh příprav zemědělských dotací nebyl transparentní,
+                    shodují se ekologické i zemědělské organizace</p>
+            </a>
+            <hr>
+        </div>
+        <div class="c-sidebar__title">
+            <h2>Kauzy</h2>
+        </div>
+        <div class="c-sidebar__article">
+            <a class="c-sidebar__link" href="/kauza/20">
+                <p><i class='fas fa-angle-right'></i> Výskyt koronaviru: vliv na podnikání v ČR i ve světě</p>
+            </a>
+            <hr>
+            <a class="c-sidebar__link" href="/kauza/19">
+                <p><i class='fas fa-angle-right'></i> Přemnožení hraboše polního: povolení plošné aplikace přípravku
+                    Stutox II
+                </p>
+            </a>
+            <hr>
+        </div>
+        <div class="c-sidebar__title">
+            <h2>Ankety</h2>
+        </div>
+        <ul class="c-anketa">
+            <li>
+                <p><input type="radio">&nbsp; V pořádku a včas jsme zaseli.</p>
+            </li>
+            <li>
+                <p><input type="radio">&nbsp; Díky nepřízni počasí se setí zpozdilo.</p>
+            </li>
+            <li>
+                <p><input type="radio">&nbsp; Od setí ozimů se ustoupilo.</p>
+            </li>
+        </ul>
+        <div class="c-sidebar__title">
+            <h2>O Agrisu</h2>
+        </div>
+        <div class="c-sidebar__article">
+            <a class="c-sidebar__link" href="http://www.agris.cz/napiste-nam">
+                <p><i class='fas fa-angle-right'></i>&nbsp; Napište nám
+                </p>
+            </a>
+            <a class="c-sidebar__link"
+                href="javascript:alert('Stiskn%C4%9Bt%C4%9B Ctrl+D pro ulo%C5%BEen%C3%AD Agrisu do va%C5%A1ich obl%C3%ADben%C3%BDch (Bookmarks)')">
+                <p><i class='fas fa-angle-right'></i>&nbsp; Přidat mezi oblíbené</p>
+            </a>
+            <a class="c-sidebar__link" href="http://www.agris.cz/o-serveru">
+                <p><i class='fas fa-angle-right'></i>&nbsp; O serveru</p>
+            </a>
+            <a class="c-sidebar__link" href="http://www.agris.cz/mapa-serveru">
+                <p><i class='fas fa-angle-right'></i>&nbsp; Mapa serveru</p>
+            </a>
+            <a class="c-sidebar__link" href="http://www.agris.cz/kontakty">
+                <p><i class='fas fa-angle-right'></i>&nbsp; Kontakty a spojení</p>
+            </a>
+        </div>
+    </aside>
+    <main class="c-main">
+            <h1 class="c-title">Aktuality</h1>
+            <article class="c-article">
+                <a class="c-article__link"
+                    href="http://www.agris.cz/clanek/213470/souhrn-udalosti-uplynulych-dni-20-22-11-2020">
+                    <h2 class="c-article__title">Souhrn událostí uplynulého dne – 23.11. 2020</h2>
+                </a>
+                <p class="c-article__desc">24. 11. 2020 | Zdroj: Agris | Článek </p>
+                <p class="c-article__text">Potravinářská inspekce zakázala 300 kg zeleného čaje s 5x překročeným
+                    limitem pro insekticid permethrin. Nejvíc smluv z tendru Lesů ČR za 5 mld. má Uniles z
+                    Agrofertu.
+                    Změny v evidenci chmelnic a certifikaci chmele probere vláda. Potravinová sbírka vynesla 440 tun
+                    zboží pro potřebné. Nejvíce v historii. </p>
+            </article>
+            <article class="c-article">
+                <a class="c-article__link"
+                    href="https://ct24.ceskatelevize.cz/pocasi/3227874-dynamicke-zmeny-v-severnim-atlantiku-ovlivni-brzy-pocasi-v-cesku">
+                    <h2 class="c-article__title">Dynamické změny v severním Atlantiku ovlivní brzy počasí v Česku
+                    </h2>
+                </a>
+                <img style="float: left;" src="images/hurikan.jpg" alt="Hurikán">
+                <p class="c-article__desc">23. 11. 2020 | Zdroj: ČT 24 | Odkaz </p>
+
+                <p class="c-article__text">Počasí v Česku bylo doposud velmi klidné – v dalších dnech se to ale
+                    díky
+                    situaci nad Atlantikem změní. Vytvoří se tam totiž několik hlubokých tlakových níží a ty mohou i
+                    významnějším způsobem ovlivnit evropskou cirkulaci.
+                </p>
+            </article>
+            <article class="c-article">
+                <a class="c-article__link"
+                    href="http://www.agris.cz/clanek/213479/reznik-aulicky-lide-vic-vyhledavaji-remeslne-vyrobky">
+                    <h2 class="c-article__title">Řezník Aulický: Lidé víc vyhledávají řemeslné výrobky</h2>
+                </a>
+                <img style="float: left;" src="images/maso.jpg" alt="Maso">
+                <p class="c-article__desc">23. 11. 2020 | Zdroj: ČTK | Článek </p>
+
+                <p class="c-article__text">Lidé v poslední době víc vyhledávají řemeslné výrobky, říká řezník
+                    Tomáš
+                    Aulický. Ve své provozovně ve Velké Dobré na Kladensku plánuje příští rok přístavbu lednic,
+                    bourárny
+                    a obchodu. Jeho cílem není vybudovat kolos, ale vesnické řeznictví, kde budou lidé moci
+                    nahlédnout
+                    do výroby i dalších prostor. Řekl to v rozhovoru s ČTK. </p>
+            </article>
+            <article class="c-article">
+                <a class="c-article__link"
+                    href="http://www.agris.cz/clanek/213477/pestitel-dest-pomohl-vanocni-stromky-jsou-zelenejsi">
+                    <h2 class="c-article__title">Pěstitel: Déšť pomohl, vánoční stromky jsou zelenější</h2>
+                </a>
+                <img style="float: left;" src="images/smrk.gif" alt="Smrk">
+                <p class="c-article__desc">23. 11. 2020 | Zdroj: ceskenoviny.cz | Článek </p>
+
+                <p class="c-article__text">Pro pěstitele vánočních stromků nastalo nejhektičtější období roku. V
+                    Nekoři na Orlickoústecku v týdnu začali řezat jedle, borovice i smrky. Prodej zahájí na začátku
+                    prosince. ČTK to řekl majitel firmy Lesní školy Nekoř Václav Faltus.</p>
+            </article>
+            <article class="c-article">
+                <a class="c-article__link"
+                    href="https://www.idnes.cz/zpravy/domaci/predpoved-pocasi-cesky-hydrometeorologicky-ustav-tydenni-predpoved.A201123_061352_domaci_kzem">
+                    <h2 class="c-article__title">Týden bude ve znamení mrznoucí mlhy. Může i mrholit nebo slabě
+                        sněžit
+                    </h2>
+                </a>
+                <p class="c-article__desc">23. 11. 2020 | Zdroj: iDNES.cz | Odkaz </p>
+                <p class="c-article__text">Po deštivějším pondělku se prosadí chladné inverzní počasí. Slunce se
+                    objeví spíše jen sporadicky, větší naděje je na horách, kde by mohlo být tepleji. Naopak poměrně
+                    častým jevem budou mrznoucí mlhy, při kterých se může vytvářet námraza. Z nízké oblačnosti by
+                    také
+                    mohlo mrholit nebo slabě sněžit. </p>
+            </article>
+            <hr><a href="http://www.agris.cz/dalsi-novinky" class="">Další novinky</a>
+            <section class="c-news">
+                <div class="c-news__graph">
+                    <a class="c-news__link" href="http://www.agris.cz/Prices">
+                        <h1 class="c-news__title">Graf vývoje cen</h1>
+                    </a>
+                    <img src="images/101.png" alt="Jatečná prasata graf"></div>
+                <div>
+                    <a class="c-news__link" href="http://www.agris.cz/Prices">
+                        <h1 class="c-news__title">Aktuální ceny</h1>
+                    </a>
+                    <table class="c-table">
+                        <tr class="c-table__row--bg">
+                            <td class="c-table__cell">23.11.2020</td>
+                            <td class="c-table__cell">Pšenice</td>
+                            <td class="c-table__cell">582,60 USD/short ton</td>
+                        </tr>
+                        <tr class="c-table__row">
+                            <td class="c-table__cell">30.10.2020</td>
+                            <td class="c-table__cell">Jateční býci S,E,U,R (ž. hm.)</td>
+                            <td class="c-table__cell">43,79 Kč/kg</td>
+                        </tr>
+                        <tr class="c-table__row--bg">
+                            <td class="c-table__cell">23.11.2020</td>
+                            <td class="c-table__cell">Sójový šrot</td>
+                            <td class="c-table__cell">336,00 USD/short ton</td>
+                        </tr>
+                        <tr class="c-table__row">
+                            <td class="c-table__cell">20.11.2020</td>
+                            <td class="c-table__cell">Vepřová plec bez kosti</td>
+                            <td class="c-table__cell">77,32 Kč/kg</td>
+                        </tr>
+                        <tr class="c-table__row--bg">
+                            <td class="c-table__cell">23.11.2020</td>
+                            <td class="c-table__cell">Sójový šrot</td>
+                            <td class="c-table__cell">337,90 USD/short ton</td>
+                        </tr>
+                        <tr class="c-table__row">
+                            <td class="c-table__cell">23.11.2020</td>
+                            <td class="c-table__cell">Hovězí maso</td>
+                            <td class="c-table__cell">112,65 USc/lb</td>
+                        </tr>
+                    </table>
+                    <div><a href="http://www.agris.cz/Prices">Více cen</a></div>
+                </div>
+            </section>
+            <section class="c-news">
+                <div class="c-cause">
+                    <h2>
+                        <span>Kauza:</span>
+                        Výskyt koronaviru
+                    </h2>
+                    <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213597?id_cause=20">
+                        <p><i class='fas fa-angle-right'></i> Restaurace se plní rezervacemi, míst mohou využít jen
+                            polovinu
+                            (3. 12. 2020) </p>
+                    </a>
+                    <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213595?id_cause=20">
+                        <p><i class='fas fa-angle-right'></i> Pivovary asi budou trvale osvobozeny od daně za vylité
+                            pivo
+                            (3. 12. 2020)
+                        </p>
+                    </a>
+                    <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213583?id_cause=20">
+                        <p><i class='fas fa-angle-right'></i> Dopad uzávěry na malé farmáře a rodinné pivovary může být
+                            fatální, říká Toman. Pomoci má Agricovid (2. 12. 2020)</p>
+                    </a>
+                    <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213582?id_cause=20">
+                        <p><i class='fas fa-angle-right'></i> Průzkum: O osud restaurací se obává 75 pct Čechů (2. 12.
+                            2020)
+                        </p>
+                    </a>
+                    <a class="c-sidebar__link" href="http://www.agris.cz/clanek/213567?id_cause=20">
+                        <p><i class='fas fa-angle-right'></i> Divočákům se daří. Pomáhá jim koronavirus, který myslivcům
+                            komplikuje hony (30. 11. 2020) </p>
+                    </a>
+                    <a class="c-sidebar__link--more" href="http://www.agris.cz/kauza/20">
+                        <p><i class='fas fa-angle-right'></i> Další články ke kauze</p>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+        <aside class="c-sidebar__two">
+            <div class="c-sidebar__title">
+                <h2>Agris online</h2>
+            </div>
+            <a class="c-sidebar__img" href="http://online.agris.cz" target="_blank"><img
+                    src="images/ico_download.gif" alt=""> Agris Online</a>
+            <div class="c-sidebar__title">
+                <h2>Počasí</h2>
+            </div>
+            <!-- weather widget start --><a target="_blank" href="https://www.booked.cz/weather/prague-18152"><img
+                    class="sidebar__weather"
+                    src="https://w.bookcdn.com/weather/picture/4_18152_1_13_137AE9_160_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=&anc_id=97373"
+                    alt="booked.net" /></a><!-- weather widget end -->
+            <div class="c-sidebar__title">
+                <h2>Vývoj cen</h2>
+            </div>
+            <img src="images/GetGraphSmall.png" alt="">
+
+            <div class="c-sidebar__title">
+                <h2>Kalendář</h2>
+            </div>
+            <!-------Do not change below this line------->
+            <div align="center"><iframe
+                    src="//widget.calendarlabs.com/v1/calendar.php?cid=1001&ver=1.2&uid=2373281731&c=7&l=en&cbg=66FF99&cfg=000000&hfg=000000&hfg1=000000&ct=1&cb=1&cbc=2275FF&cf=verdana&cp=bottom&sw=1&hp=t&ib=0&ibc=&i=images/"
+                    align="center" width="170" height="155" marginwidth=0 marginheight=0 frameborder=no scrolling=no
+                    allowtransparency='true'>Loading...</iframe>
+                <div align="center" style="width:140px;font-size:10px;color:#333;">Calendar Widget by <a
+                        href="https://www.calendarlabs.com/" target="_blank" rel="nofollow"
+                        style="font-size:10px;text-decoration:none;color:#333;">CalendarLabs</a></div>
+            </div>
+            <!-------Do not change above this line------->
+            <div class="c-references">
+                <a class="c-ref__link" href="http://zver.agris.cz/"><img src="images/zver120x90.jpg" alt="Zvěř"></a>
+                <a class="c-ref__link" href="http://www.kznp.cz/"><img src="images/logo_kznp1.png" alt="KZNP"></a>
+                <h3>Poporujeme</h3>
+                <a class="c-ref__link" href="http://www.kznp.cz/"><img src="images/utipa_logo.svg" alt="UTIPA"></a>
+            </div>
+        </aside>
+        <footer class="c-footer">
+        <div class="c-media">
+            <li><a href="https://www.facebook.com/Agris-agr%C3%A1rn%C3%AD-www-port%C3%A1l-284412154943287"
+                    img src="images/facebook.gif" alt="Agris na Facebooku"></a></li>
+            <li><a href="https://twitter.com/Agris_CZ"
+                    img src=images/twitter.gif alt="Agris na Twitteru">
+                </a></li>
+            <li><a href="https://www.agris.cz/RSS"
+                    img src="images/rss.gif" alt="Agris RSS">
+               </a></li>
+            <li><a href="http://kc.agris.cz/agrisk/cindex.php"
+                    img src="images/komcentrum.gif" alt="Komunikační centrum">
+                </a></li>
+        </div>
+        <div class="c-footer__desc">
+            <p>Agrární WWW portál AGRIS vznikl v roce 1999 na základě
+                spolupráce a href=httpswww.czu.czcsČeské zemědělské univerzity v Praze s
+                <a href="http://www.mze.cz/">Ministerstvem zemědělství ČR</a></p>
+        </div>
+        <div class="c-footer__copy">
+            <p>© Copyright AGRIS 2000-2020 - Publikování a šíření obsahu agrárního WWW portálu AGRIS je možné
+                (pokud není uvedeno jinak) pouze za podmínky uvedení zdroje v podobě www.agris.cz a data publikace v
+                AGRISu.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

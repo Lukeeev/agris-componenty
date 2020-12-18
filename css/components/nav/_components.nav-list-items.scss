@@ -1,0 +1,15 @@
+.c-list__item {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 21px;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}

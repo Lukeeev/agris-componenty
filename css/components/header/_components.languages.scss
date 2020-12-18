@@ -1,0 +1,23 @@
+.c-languages{
+    position: absolute;
+    top: 7px;
+    left: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    li{
+    list-style: none;
+    float: left;
+    padding: 0 7px;
+    }
+}
+.c-current__lang{
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: #666666;
+    }
+    img{
+        padding-bottom: 4px;
+    }
+}
